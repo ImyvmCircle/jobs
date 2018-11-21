@@ -357,12 +357,12 @@ Jobs:
       LEATHER_LEGGINGS:
         income: 1.0
         experience: 1.0
-      351:
+      DYE:
         income: 1.0
         experience: 1.0
     # Catching fish
     Fish:
-      '349':
+      FISH:
         income: 0.05
         experience: 1.0
     # Repairing items
@@ -496,7 +496,7 @@ Jobs:
       # Just name, dont have any impact
       firstOne:
         # Tool/Weapon id. Works for block Break, Fish, Animal tame, Breed, Monster/Player kill.
-        id: 278
+        id: DIAMOND_PICKAXE
         # Items name, should be with color codes
         name: '&8Miner Pickaxe'
         # Item lore, again should come with color codes
@@ -515,7 +515,7 @@ Jobs:
         pointBoost: 1.3
       helmet:
         # Armor id. This one works with all jobs
-        id: 310
+        id: DIAMOND_HELMET
         name: '&8Armor'
         lore:
         - '&eBobs armor'
@@ -527,7 +527,7 @@ Jobs:
       # Just name, dont have any impact
       firstOne:
         # Tool/Weapon id. Works for any interact action.
-        id: 278
+        id: DIAMOND_PICKAXE
         # Level of this job player can start using this item
         level: 5
         # (optional) Items name, option to use color codes
@@ -564,11 +564,11 @@ Jobs:
       Id: 17
       Data: 2
     Break:
-      17-0:
+      OAK_LOG:
         income: 0.5
         points: 2.5
         experience: 2.5
-      17-1:
+      SPRUCE_LOG:
         income: 0.5
         points: 2.5
         experience: 2.0
